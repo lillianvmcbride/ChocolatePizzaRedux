@@ -1,0 +1,118 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    padding: 100px;
+  }
+  .stripe{
+    background: repeating-linear-gradient(
+      45deg,
+      white,
+      white 1px,
+      black 1px,
+      black 2px
+    );
+    height: 10px;
+  }
+  #logo {
+    width: 50px;
+  }
+  #delicious {
+    font-family: 'Yellowtail'; font-size: 32px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 10px;
+  }
+  #best {
+    font-family: 'Lateef'; font-size: 10px;
+  }
+  #wide {
+    width: 425px;
+    position: relative;
+    left:150px;
+  }
+  #space {
+    padding-right: 10px;
+  }
+  #print {
+    position: relative;
+    left:  580px;
+    font-size: 11px;
+  }
+  .logos {
+    float: right;
+    padding: 1px;
+  }
+  #chocPi {
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+  }
+  
+  #postDate {
+    font-size: x-small;
+    float: inline-start
+  }
+  
+  #chocPiPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    height: auto;
+  }
+  
+  #recipe {
+    overflow-wrap: break-word;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-indent: 2em;
+    
+  }
+  
+  #ingredients {
+    column-count: 2;
+    background-image: url("/images/list-bg.png");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 300px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: larger;
+  }
+  ul{
+    margin-top: 10px;
+    list-style-type: none;
+    display:inline-block ;
+  }
+  #vanessa {
+    display: inline;
+  }
+  button {
+    background-color: rgba(139, 0, 0, 70%);
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+  footer{
+    text-align: center;
+  }
+  hr{
+    width: 350px;
+  }
+  #bottom-logo>*{
+    display: inline-block;
+  }
+  div>section{
+    max-width: 500px;
+  }
+  .flex-container>*{
+    display: inline-block;
+  }
